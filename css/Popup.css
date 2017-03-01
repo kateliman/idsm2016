@@ -1,0 +1,108 @@
+
+ .overlay {
+     position: fixed;
+     top: 0;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     background: rgba(0, 0, 0, 0.7);
+     /*transition: all 0.3s ease-in-out;*/
+     visibility: hidden;
+     opacity: inherit;
+     -webkit-animation-name: fadeOut;
+     animation-name: fadeOut;
+     -webkit-animation-duration: 1s;
+     animation-duration: 1s;
+ }
+ 
+ .overlay:target {
+     visibility: visible;
+     opacity: inherit;
+     -webkit-animation-name: fadeIn;
+     animation-name: fadeIn;
+     -webkit-animation-duration: 1s;
+     animation-duration: 1s;
+ }
+ 
+ .popup {
+     margin: 70px auto;
+     padding: 20px;
+     background: #fff;
+     /*border-radius: 25px;*/
+     width: 50%;
+     position: relative;
+     /*transition: all 0.3s ease-in-out;*/
+     background: #f5f5f5;
+ }
+ 
+ .close {
+     float: right;
+     font-size: 30px;
+     font-weight: bold;
+     text-decoration: none;
+     color: #666666;
+ }
+ 
+ .popup .close:hover {
+     color: red;
+ }
+ 
+ .content {
+     margin-top: 20px;
+ }
+ /* Add animation (fade in the popup) */
+ 
+ @-webkit-keyframes fadeIn {
+     from {
+         opacity: 0;
+     }
+     to {
+         opacity: 1;
+     }
+ }
+ 
+ @keyframes fadeIn {
+     from {
+         opacity: 0;
+     }
+     to {
+         opacity: 1;
+     }
+ }
+ /* Add animation (fade out the popup) */
+ 
+ @-webkit-keyframes fadeOut {
+     from {
+         opacity: 1;
+     }
+     to {
+         opacity: 0;
+     }
+ }
+ 
+ @keyframes fadeOut {
+     from {
+         opacity: 1;
+     }
+     to {
+         opacity: 0;
+     }
+ }
+ 
+ 
+ .input-list{
+    width: 40%;
+    padding: 10px 20px;
+     display: block;
+     outline: none;
+  
+ }
+ 
+ .input-text{
+     width: 93%;
+     padding: 10px 20px;
+     display: block;
+     outline: none;
+     font-family: 'Sacramento', cursive;
+    font-size: 35px;
+ }

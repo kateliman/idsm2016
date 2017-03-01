@@ -1,0 +1,146 @@
+div {
+    margin-bottom: 15px;
+    padding: 10px 10px 10px 0px;
+    background-color: #fff;
+}
+
+.mainbody {
+    min-height: 500px;
+	text-align: center;
+	margin: 0 auto;
+	width: 100%;
+	
+}
+#pagename{
+	font-family: 'Vast Shadow', cursive;
+    font-size: 60px;
+    color: #A4A4A4;
+}
+#date {
+    font-family: 'Cairo', sans-serif;
+    font-size: 12px;
+    color: gray;
+    text-align: right;
+    width: 40%;
+    white-space: nowrap;
+}
+#dayName {
+    font-family: 'Cairo', sans-serif;
+    font-size: 18px;
+	color: #585858;
+	text-transform: uppercase;
+	font-weight:lighter;
+    text-align: right;
+    white-space: nowrap;
+}
+
+.tabled{
+	width: 16%;
+    height: 100px;
+	border-style: none;
+	background: url("/images/cool-white-back_.jpg");
+	background-size: cover;
+	border-radius:10px;
+	opacity: 0.9;
+	border-collapse:separate;
+	border-spacing:30px 30px;
+	font-family: 'Cairo', sans-serif;
+}
+
+.tableheader {
+	border-collapse:collapse;
+    border-style: hidden;
+	background-color:#fefb7a;
+	 /*background: linear-gradient(rgb(248, 252, 126), rgb(244, 250, 88)) rgb(248, 252, 126);*/
+	box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+.menu{
+font-size:18px;
+float:right;
+}
+#period{
+    width:5%;
+}
+#PeriodName{
+  font-size: 16px; 
+  text-transform: uppercase;
+  font-weight:bold;
+}
+#activite{
+text-align: center;
+cursor: pointer;
+	font-size: 14px;
+    font-family: 'Cairo', sans-serif;
+    color: #585858;
+    font-weight:bold;
+    text-transform: uppercase;
+}
+#activite:hover:not(:active){
+     color: #2e2d2d;
+}
+#activite:active {
+    color: #585858;
+}
+.c {
+    border: 1px solid #585858;  /*Рамка */
+	background-color:#fefb7a;
+    transition: .2s ease-in-out;
+    padding: 5px 15px; /* Поля */
+    text-decoration: none; /* Убираем подчёркивание */
+    color: #585858; /* Цвет текста */
+	font-family: 'Cairo', sans-serif;
+	text-align: center;
+    cursor: pointer;
+    margin:5px 5px 5px 5px;
+    width:150px;
+  }
+.c:hover:not(.active) {
+  background: linear-gradient(rgb(250, 252, 182), rgb(254, 251, 122)) rgb(250, 252, 182);
+}
+.c:active {
+  top: 1px;
+  background: linear-gradient(rgb(204, 209, 52), rgb(214,219,59)) rgb(204, 209, 52);
+  box-shadow:
+   0 0 1px rgba(88,88,88,.5) inset,
+   0 2px 3px rgba(88,88,88,.5) inset,
+   0 1px 1px rgba(255,255,255,.1);
+}
+.c1 {
+    border: 1px solid #585858;  /*Рамка */
+	background-color:white;
+    transition: .2s ease-in-out;
+    padding: 5px 15px; /* Поля */
+    text-decoration: none; /* Убираем подчёркивание */
+    color: #585858; /* Цвет текста */
+	font-family: 'Cairo', sans-serif;
+	text-align: center;
+    cursor: pointer;
+    margin:5px 5px 5px 5px;
+    width:150px;
+  }
+.c1:hover:not(.active) {
+  background: linear-gradient(rgb(235, 232, 232), rgb(255, 255, 255)) rgb(235, 232, 232);
+}
+.c1:active {
+  top: 1px;
+  background: linear-gradient(rgb(214, 214,2142), rgb(235,232,232)) rgb(214, 214, 214);
+  box-shadow:
+   0 0 1px rgba(88,88,88,.5) inset,
+   0 2px 3px rgba(88,88,88,.5) inset,
+   0 1px 1px rgba(255,255,255,.1);
+}
+
+
+.footer{
+    min-height: 50px;
+	margin: 0 auto;
+	width: 99%;
+/*	background-color:#F4FA58;*/
+	background-color:#FEFB7A;
+    clear: both;
+	text-align: center;
+	border-top-color: #A4A4A4;
+    border-top-style: solid; 
+    border-top-width: 3px; 
+	box-shadow:0px -12px 16px 0 rgba(0, 0, 0, 0.24), 0 -17px 50px 0 rgba(0, 0, 0, 0.19);
+}

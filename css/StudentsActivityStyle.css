@@ -1,0 +1,63 @@
+ .stud-name {
+     width: auto;
+ }
+ 
+ .stud-number {
+     width: 20px;
+ }
+
+ 
+ .top-panel {
+     /*border-radius: 25px;*/
+     margin-top: 20px;
+     background-color: #fefb7a;
+     /*#F0FF0F;cornsilk;*/
+     padding-left: 0px;
+     padding-bottom: 10px;
+     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+     width: fill;
+ }
+ 
+
+ .first-level {
+     /*font-family: "Fredericka the Great", cursive;*/
+     font-family: 'Vast Shadow', cursive;
+     color: #2b2b2b;
+     font-size: 60px;
+     color: #666666;
+     margin-left:15px;
+ }
+ 
+ .second-level {
+     /*font-family: 'Pompiere', cursive;*/
+     font-family: 'Cairo', sans-serif;
+     font-variant: small-caps;
+     font-size: 25px;
+     color: #666666;
+ }
+ 
+
+ .stud-activity {
+     margin-top: 20px;
+     
+ }
+ 
+ .white-background {
+     padding: 30px;
+     border-radius: 15px;
+     /*background-image: url("/images/white_background.jpg");
+     width: 80%;
+     height: 100%;
+     min-width: 200px;*/
+ }
+ 
+ .list {
+     margin-top: 20px;
+     width:100%;
+ }
+
+ .error{
+  color: red;
+  font-family: 'Cairo', sans-serif;
+  font-size: 30px;
+ }
